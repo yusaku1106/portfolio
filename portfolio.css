@@ -1,0 +1,212 @@
+*{
+  padding:0;
+  margin:0;
+
+}
+
+header{
+  display: none;
+}
+
+.greet{
+  height: 400px;
+  width:100%;
+  background-image: url(img/headerimg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-color: #F7F7F7;
+
+
+}
+
+
+
+
+.greet-txt p{
+  font-size: 30px;
+  margin-left: 15%;
+  padding-top: 190px;
+  color: #333333;
+}
+
+.greet-txt h1{
+  font-size: 50px;
+  color:#333333;
+  margin-left: 15%;
+}
+/*profile*/
+
+.profile{
+
+  width: 100%;
+  margin-top: 100px;
+}
+
+.yellowbracket{
+  width:650px;
+  position: relative;
+  margin:0 auto;
+
+}
+
+.yellowbracket::before{
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  height: 50px;
+  width:50px;
+  border-top: 4px solid #ffd700;
+  border-left: 4px solid #ffd700;
+
+}
+
+.yellowbracket::after{
+  content: "";
+  position: absolute;
+  bottom:0;
+  right: 0;
+  height: 50px;
+  width:50px;
+  border-bottom: 4px solid #ffd700;
+  border-right: 4px solid #ffd700;
+
+}
+
+
+
+.title h1{
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #333333;
+
+}
+
+.profile-contents{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 140px;
+  width:100%
+}
+
+.profile-contents img{
+  height: 200px;
+  width: 300px;
+  border-radius: 6px
+
+}
+
+.profile-txt{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 30px;
+  width:500px;
+}
+
+.profile-txt p{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #333333;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.blank{
+  padding-bottom: 20px;
+}
+
+.skills{
+
+  width:100%;
+  margin-top: 80px;
+  text-align: center;
+}
+.skills-contents{
+  margin-top: 100px;
+}
+
+.skill{
+  display: inline-block;
+  text-align: center;
+  width:200px;
+  height: 300px;
+  margin: 30px;
+  padding: 10px;
+  background-color: #c0c0c0;
+  border-radius: 6px;
+  border: 3px solid #262626;
+}
+
+.skill_logo{
+  display: inline-block;
+  height:130px;
+  width: 130px;
+  background-color:#ffd700 ;
+  border-radius: 65px;
+  position: relative;
+}
+
+.skill_logo img{
+  height: 70px;
+  width:70px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
+
+/*portfolio*/
+
+.portfolio{
+  width:100%;
+  height: 500px;
+  padding-top: 80px;
+}
+
+
+/*footer*/
+
+footer{
+  width:100%;
+  height: 200px;
+  background-color:#333333;
+}
+
+.footer-contents{
+  text-align: center;
+}
+
+.footer-title{
+  padding-top: 30px;
+}
+
+.footer-title h1{
+  font-size: 22px;
+  color: white;
+
+}
+
+.mail{
+  padding-top:30px;
+}
+
+.mail h1{
+  font-size: 26px;
+  color: white;
+
+}
+
+.portfolios{
+  height:100px;
+  width:100px;
+  background-color: red;
+}
+
+.Tweet_app{
+
+}

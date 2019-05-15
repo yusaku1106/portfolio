@@ -1,0 +1,64 @@
+@media (max-width:970px){
+
+  .profile-txt{
+    display: block;
+    margin:0 auto;
+    width: 90%;
+
+  }
+
+  .profile-txt p{
+     text-align: center;
+     font-size: 18px
+  }
+}
+
+@media (max-width:850px){
+  .greet{
+    background-size: cover;
+  }
+}
+
+
+@media (max-width:710px){
+  .yellowbracket{
+    width:90%;
+  }
+
+  .title h1{
+    font-size: 60px;
+  }
+}
+
+@media (max-width:870px){
+  .skill{
+    height:220px;
+  }
+
+  .skill_logo{
+    height:65px;
+    width:65px;
+    border-radius: 33px;
+  }
+
+  .skill_logo img{
+    height:40px;
+    width:40px;
+  }
+
+  .skill-txt h1{
+    font-size: 22px;
+  }
+}
+
+@media (max-width:500px){
+  .title h1{
+    font-size: 30px;
+  }
+
+  .yellowbracket::before,
+  .yellowbracket::after{
+    height: 25px;
+    width: 25px;
+  }
+}
