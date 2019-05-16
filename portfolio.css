@@ -202,9 +202,13 @@ footer{
 }
 
 .portfolios{
-  height:100px;
-  width:100px;
-  background-color: red;
+  text-align: center;
+}
+
+.portfolios h1{
+  font-size: 40px;
+  padding-top: 100px;
+
 }
 
 .Tweet_app{
