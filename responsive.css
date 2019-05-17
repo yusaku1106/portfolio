@@ -1,15 +1,13 @@
 @media (max-width:970px){
-
-  .profile-txt{
-    display: block;
+  .profile-txt {
+    width:90%;
     margin:0 auto;
-    width: 90%;
-
+    padding-top: 30px;
+    padding-left: 0;
   }
 
   .profile-txt p{
-     text-align: center;
-     font-size: 18px
+    text-align:center;
   }
 }
 
